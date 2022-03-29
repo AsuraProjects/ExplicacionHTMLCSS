@@ -12,18 +12,30 @@ ul {
   padding: 10px;
 }
 
-.mainButton {
-  background-color: darkolivegreen;
-  color: white;
+.button {
   border: 0px;
   padding: 5px 10px;
   border-radius: 10px;
   font-weight: bolder;
-  box-shadow: 2px 2px palegreen;
+}
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.mainButton {
+  background-color: darkolivegreen;
+  color: white;
 }
 
 .mainButton:hover {
-  cursor: pointer;
   box-shadow: 5px 5px paleturquoise;
-  transform: scale(1.1);
+}
+
+.secondaryButton {
+  background-color: #66d8f5;
+  color: white;
+}
+
+.secondaryButton:hover {
+  box-shadow: 5px 5px rgb(119, 229, 233);
 }
